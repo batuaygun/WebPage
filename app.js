@@ -4,7 +4,7 @@ const ejs = require("ejs");
 
 const app = express();
 
-//Template engine
+//Template engines
 app.set("view engine", "ejs");
 
 app.use(express.static("public"));
